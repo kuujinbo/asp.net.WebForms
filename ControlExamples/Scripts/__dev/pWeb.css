@@ -1,0 +1,189 @@
+﻿html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  font-weight:inherit;
+  font-style:inherit;
+  font-size:100%;
+  font-family:inherit;
+  vertical-align:top;
+}
+body {
+  font-size:9pt;
+  font-family:Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+}
+form {
+  margin:8px 0;
+  padding:0;
+}
+
+#site-links {
+  background-image:url('/WebApps/common/image/chppe_bg_header.jpg');
+  height:30px;
+  /* vertical center */
+  line-height:30px;
+  color:#fff;
+  padding:0 4px;
+}
+#site-links a {color:#fff;}
+
+#logo-heading {
+  background-image:url('/WebApps/common/image/usachppmeur-logo.jpg');
+  background-repeat:no-repeat;
+  border-bottom:1px groove #ccc;
+  height:65px;
+  /* vertical center */
+  line-height:65px;
+  margin:0;
+  padding:0;
+}
+#logo-heading h1 {
+  margin:0;
+  padding:0;
+  margin-left: 200px;
+  color:#666;
+}
+
+#page-content {
+  padding:0 8px;
+}
+
+a:link {
+  color:#285192;
+  text-decoration:none;
+}
+a:visited {
+  color:#285192;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#000;
+  text-decoration:underline;
+}
+
+a.boldBlue {
+  color:blue;
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+h1 {
+  font-weight:bold;
+  font-size:1.4em;
+  margin:10px 0;
+}
+h2 {
+  font-weight:bold;
+  font-size:1.2em;
+  margin:10px 0;
+}
+h3 {
+  font-weight:bold;
+  font-size:1.1em;
+  margin:10px 0;
+}
+
+table {border-collapse:collapse;border-spacing:0;}
+th {font-weight:bold;}
+
+/* forms */
+input[type=text],
+input[type=password],
+input.text,
+input.title,
+textarea, 
+select {
+  background-color:#fff;border:1px solid #bbb;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+input.text:focus, 
+input.title:focus,
+textarea:focus, 
+select:focus {
+  border-color:#000;
+}
+fieldset {
+  margin:4px;
+  padding:8px;
+}
+legend {
+  padding:0;
+  margin:0;
+  font-weight:bold;
+}
+
+div.kuujinbo {
+  margin-top:8px;
+}
+
+/* __BEGIN__ custom server control client-side validation */
+input.validation-errors,textarea.validation-errors,div.validation-errors,span.validation-errors,table.validation-errors {
+  border:2px solid #ff0000;
+  background-color:#ffff33;
+  margin:1px 0;
+  padding:0;
+  color:#ff0000;
+}
+
+/* IExploder input type='radio' handling makes life miserable for everyone */
+span.radio.validation-errors {
+  display:inline-block;
+  border:2px solid #ff0000;
+}
+/* IExploder SELECT handling makes life miserable for everyone */
+select.validation-errors {
+  background-color:#ffff33;
+  color:#ff0000;
+}
+span.__IE_SELECT_SUCKS__ {
+  border:2px solid #ff0000;
+  display:table-cell;
+}
+
+table.validation-errors {border-collapse:separate;}
+/* __END__ custom server control client-side validation */
+
+table.datagrid {background:#fff;}
+table.datagrid th {
+  color:#fff;background:#333;
+  padding:2px;
+  border:1px solid #ccc;
+  border-collapse:collapse;
+}
+table.datagrid td {
+  padding:2px;
+  border:1px solid #ccc;
+  border-collapse:collapse;
+}
+tr.alt td {
+  background:#eaeaea;
+}
+tr.over td {
+  background:#ffff33;
+}
+
+.tbMargin8 {margin:8px 0;}
+.boldRed  {
+  color:Red;
+  font-weight:bold;
+}
+.highlightRedBg {
+  background-color:red;
+  color:yellow;
+  font-weight:bold;
+}
+.highlightBlackBg {
+  background-color:#000;
+  color:yellow;
+  font-weight:bold;
+}
+
+a.save { 
+  background: url('/WebApps/common/image/save.gif') left center no-repeat;
+}
+
+/* jQuery UI autocomplete */
+.ui-autocomplete-loading { 
+  background: white url('/WebApps/common/image/ajax_16x16.gif') right center no-repeat;
+}

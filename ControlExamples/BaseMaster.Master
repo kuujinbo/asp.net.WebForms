@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="false" CodeFile="BaseMaster.master.cs" Inherits="ControlExamples.BaseMaster" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<link href="/Content/bootstrap.min.css" rel="stylesheet">
+<link href="/Content/bootstrap-theme.min.css" rel="stylesheet">
+<script src="/Scripts/jquery-2.2.3.min.js"></script>
+<style type="text/css">
+/* custom server control client-side validation */
+input.input-validation-error,textarea.input-validation-error,div.input-validation-error,span.input-validation-error,table.input-validation-error, select.input-validation-error {
+  border:1px solid #990000;
+  background-color:#ffffb8;
+  margin:0;
+  padding:4px;
+  color:#990000;
+}
+/* bootstrap overrides */
+.form-control { padding: 0 4px; height:29px; }
+label { margin:0 10px 0 4px;}
+.form-inline .form-control { width:100%; }
+div input[type=submit] { margin: 8px 0;  }
+/* jQuery DataTables larg[er] text sorting column click fix */
+/*table.compact.dataTable thead th, table.compact.dataTable thead td { border:1px solid #fff; } */
+</style>
+</head>
+<body>
+<div class="container" id="content">
+
+<form id="form1" runat="server" class="form-inline" novalidate>
+<asp:ContentPlaceHolder ID="PageContent" runat="server" />
+</form>
+
+<script src="/Scripts/kuujinbo.js"></script>
+</div></body></html>

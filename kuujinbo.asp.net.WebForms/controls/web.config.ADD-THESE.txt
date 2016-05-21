@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <system.web>
+    <compilation>
+      <expressionBuilders>
+        <add expressionPrefix="Code" type="SES.asp.net.CodeExpressionBuilder"/>
+      </expressionBuilders>
+    </compilation>
+    <pages>
+      <controls>
+        <add tagPrefix="kuujinbo" namespace="kuujinbo.asp.net.WebForms.controls" assembly="kuujinbo.asp.net.WebForms"/>
+      </controls>
+    </pages>
+  </system.web>
+	<appSettings>
+<!--
+  custom server control configuration =>  ~/bin/kuujinbo.asp.net.WebForms.dll
+-->
+		<add key="TextareaJavaScriptPath" value="/WebApps/common/js/jquery.charcounter.js"/>
+    <add key="DateBoxJavaScriptPath" value="/WebApps/common/js/jquery-tools/jquery.tools.min.js"/>
+    <add key="DateBoxCssPath" value="/WebApps/common/js/jquery-tools/jquery.tools.dateinput.css"/>
+		<add key="KuujinboControlsJavaScriptPath" value="/WebApps/common/js/control.tools.js"/>
+    <add key="jQueryFancyBox" value="/WebApps/common/js/jquery-fancybox/jquery.fancybox.pack.js"/>
+		<add key="jQueryFancyBoxCSS" value="/WebApps/common/js/jquery-fancybox/jquery.fancybox.css"/>
+	</appSettings>
+</configuration>
