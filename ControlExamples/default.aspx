@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs"
-  Inherits="ControlExamples._default"
-%>
+﻿<%@ Page Language="C#" AutoEventWireup="false" Inherits="ControlExamples._default" CodeFile="default.aspx.cs" %>
 <%--   ClientIDMode="static" Predictable --%>
 <asp:content id='content1' contentplaceholderid='PageContent' runat='server'>
 <h1>TEST</h1>

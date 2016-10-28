@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="false" CodeBehind="Csrf.aspx.cs" Inherits="ControlExamples.Csrf" %>
+﻿<%@ Page Language="C#" AutoEventWireup="false" codefile="Csrf.aspx.cs" Inherits="ControlExamples.Csrf" %>
 
 <asp:content id='content1' contentplaceholderid='PageContent' runat='server'>
 

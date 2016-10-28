@@ -63,6 +63,7 @@
     <Compile Include="ControlHelper.cs" />
     <Compile Include="controls\DynamicControlsPlaceholder.cs" />
     <Compile Include="controls\designer\MultilineStringEditor.cs" />
+    <Compile Include="Crypto.cs" />
     <Compile Include="StringExtensions.cs" />
     <Compile Include="WebControlExtensions.cs" />
     <Compile Include="ObjectDumper.cs" />

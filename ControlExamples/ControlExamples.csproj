@@ -175,6 +175,7 @@
     <Content Include="Csrf.aspx" />
     <Content Include="DataTables.aspx" />
     <Content Include="DatatablesServer.aspx" />
+    <Content Include="encryptFile.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="default.aspx" />
     <Content Include="Content\bootstrap\js\bootstrap.js" />
@@ -312,6 +313,16 @@
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="encryptFile.aspx.cs">
+      <DependentUpon>encryptFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="encryptFile.aspx.designer.cs">
+      <DependentUpon>encryptFile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="false" CodeBehind="DataTables.aspx.cs" Inherits="ControlExamples.DataTables" %>
+﻿<%@ Page Language="C#" AutoEventWireup="false" codefile="DataTables.aspx.cs" Inherits="ControlExamples.DataTables" %>
 
 <asp:content id='content1' contentplaceholderid='PageContent' runat='server'>
 
